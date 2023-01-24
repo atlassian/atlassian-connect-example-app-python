@@ -1,4 +1,6 @@
-# atlassian-connect-sample-app-python
+# [WIP] atlassian-connect-sample-app-python
+
+> **_NOTE:_**  This repository is in progress and is not ready yet.
 
 ## About
 This repository contains a [Django](https://www.djangoproject.com/start/) starter for building an [Atlassian Connect app](https://developer.atlassian.com/cloud/jira/platform/getting-started-with-connect/).
