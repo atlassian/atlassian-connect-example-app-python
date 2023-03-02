@@ -16,16 +16,16 @@ connect_app_descriptor = {
     "modules": {
         "generalPages": [
             {
-                "url": "/templates/index.html",
-                "key": "hello-world",
+                "url": '/config',
+                "key": 'acn-config',
                 "location": "system.top.navigation.bar",
                 "name": {
-                    "value": "Test"
+                    'value': 'Connect Descriptor'
                 }
-            }
+            },
         ],
         "postInstallPage": {
-            "url": "index.html",
+            "url": "/",
             "key": "acn-index",
             "name": {
                 "value": "Index"
