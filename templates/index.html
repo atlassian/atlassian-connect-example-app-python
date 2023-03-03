@@ -1,9 +1,28 @@
 {% extends 'base.html' %}
 
 {% block head %}
-    <title>Sample Python App</title>
+    <title>{{index}}</title>
 {% endblock %}
 
 {% block body %}
-    <h1>Python app</h1>
+    <h3>Python app:</h3>
+    <hr>
+    <br>
+
+    <div>
+        {{body}}
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div>
+        Check out the links:
+        <ul>
+            <li>
+                <a class="aui-button aui-button-link" id="configPage">Atlassian Connect App config</a>
+            </li>
+        </ul>
+    </div>
 {% endblock %}
