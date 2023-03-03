@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>{{index}}</title>
+{% endblock %}
+
+{% block body %}
+    <br/>
+    <br/>
+    <button class="aui-button" id="homePage">Home</button>
+    <br/>
+    <br/>
+    <h3>Atlassian Connect Config:</h3>
+    <hr>
+    <pre class="config-container" id="config" data-config={{config}}>{{config}}</pre>
+    <br/>
+    <br/>
+{% endblock %}
